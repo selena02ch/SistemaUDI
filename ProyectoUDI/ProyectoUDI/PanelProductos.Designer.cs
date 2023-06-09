@@ -1,6 +1,6 @@
 ﻿namespace ProyectoUDI
 {
-    partial class PanelProveedores
+    partial class PanelProductos
     {
         /// <summary>
         /// Required designer variable.
@@ -28,18 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // PanelProveedores
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(592, 393);
-            this.Name = "PanelProveedores";
-            this.Text = "PanelProveedores";
-            this.ResumeLayout(false);
-
+            this.Text = "PanelProductos";
         }
 
         #endregion
