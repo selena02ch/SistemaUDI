@@ -74,13 +74,18 @@
     <Compile Include="PanelMenu.Designer.cs">
       <DependentUpon>PanelMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="PanelProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelProductos.Designer.cs">
+      <DependentUpon>PanelProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="PanelProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PanelProveedores.Designer.cs">
       <DependentUpon>PanelProveedores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Producto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Bienvenida.resx">
@@ -89,6 +94,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelClientes.resx">
+      <DependentUpon>PanelClientes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelMenu.resx">
+      <DependentUpon>PanelMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelProveedores.resx">
+      <DependentUpon>PanelProveedores.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

@@ -15,5 +15,27 @@ namespace ProyectoUDI
         {
             InitializeComponent();
         }
+
+        private void labelProd_Click(object sender, EventArgs e)
+        {
+            PanelProductos npanelP = new PanelProductos();
+            npanelP.Show();
+            this.Hide();
+
+        }
+
+        private void labelProv_Click(object sender, EventArgs e)
+        {
+            PanelProveedores npanelProv = new PanelProveedores();
+            npanelProv.Show();
+            this.Hide();
+        }
+
+        private void labelCliente_Click(object sender, EventArgs e)
+        {
+            PanelClientes npanelC = new PanelClientes();
+            npanelC.Show();
+            this.Hide();
+        }
     }
 }
