@@ -54,6 +54,7 @@
             this.label1.Size = new System.Drawing.Size(210, 18);
             this.label1.TabIndex = 1;
             this.label1.Text = "CLICK PARA INICIAR SESION";
+            this.label1.Click += new System.EventHandler(this.lbl_Acceder_Click);
             // 
             // Bienvenida
             // 
