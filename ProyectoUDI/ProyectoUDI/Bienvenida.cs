@@ -15,5 +15,12 @@ namespace ProyectoUDI
         {
             InitializeComponent();
         }
+
+        private void lbl_Acceder_Click(object sender, EventArgs e)
+        {
+            Login nlogin = new Login();
+            nlogin.Show();
+            this.Hide();
+        }
     }
 }
