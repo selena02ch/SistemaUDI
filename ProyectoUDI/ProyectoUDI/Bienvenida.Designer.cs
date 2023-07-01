@@ -43,7 +43,11 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+<<<<<<< HEAD
             this.pictureBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.img_MouseClick);
+=======
+            this.pictureBox1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.img_MouseDoubleClick);
+>>>>>>> 9296230a9ce1b1a4d87355ad285b3197db42562f
             // 
             // label1
             // 
@@ -55,7 +59,11 @@
             this.label1.Size = new System.Drawing.Size(210, 18);
             this.label1.TabIndex = 1;
             this.label1.Text = "CLICK PARA INICIAR SESION";
+<<<<<<< HEAD
             this.label1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lbl_MouseClick);
+=======
+            this.label1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lbl_MouseDoubleClick);
+>>>>>>> 9296230a9ce1b1a4d87355ad285b3197db42562f
             // 
             // Bienvenida
             // 
@@ -67,7 +75,11 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Bienvenida";
             this.Text = "Form1";
+<<<<<<< HEAD
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.bien_MouseClick);
+=======
+            this.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.bien_MouseDoubleClick);
+>>>>>>> 9296230a9ce1b1a4d87355ad285b3197db42562f
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

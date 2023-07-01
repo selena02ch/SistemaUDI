@@ -23,6 +23,7 @@ namespace ProyectoUDI
             string usuario = textBox1.Text;
             string contraseña = textBox2.Text;
 
+<<<<<<< HEAD
             if (usuario == "" & contraseña == "")
             {
                 MessageBox.Show("Ingrese Usuario y Contraseña");
@@ -61,6 +62,39 @@ namespace ProyectoUDI
                 }
             }
 
+=======
+            //for (int x = 0; x < 5; x++)
+            //{
+
+                //if ((usuario == usucontraseña[x, 0]) && (contraseña == usucontraseña[x, 1]))
+                //{
+                //    PanelMenu panelmenu = new PanelMenu();
+                //    panelmenu.Show();
+                //    panelmenu.Hide();
+                //    break;
+                //}
+
+              //  {
+                //    MessageBox.Show("intente denuevo");
+                  //  usuario = "";
+                   // contraseña = "";
+                    //this.textBox1.Focus();
+                   // break;
+               // }
+
+               // if (usuario == "" & contraseña == "")
+                //{
+                //    MessageBox.Show("Ingrese Usuario y Contraseña");
+                //}
+                //else
+                //{
+                 //   MessageBox.Show("Datos guardados");
+                  //  textBox1.Clear();
+                   // textBox2.Clear();
+                   // textBox1.Focus();
+                //}
+           // }
+>>>>>>> 9296230a9ce1b1a4d87355ad285b3197db42562f
         }
     }
 }
