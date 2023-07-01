@@ -22,3 +22,5 @@ C:\Users\USUARIO1\Desktop\UDI_GIT\SistemaUDI\ProyectoUDI\ProyectoUDI\obj\Debug\P
 C:\Users\USUARIO1\Desktop\UDI_GIT\SistemaUDI\ProyectoUDI\ProyectoUDI\obj\Debug\ProyectoUDI.PanelProveedores.resources
 C:\Users\USUARIO1\Desktop\UDI_GIT\SistemaUDI\ProyectoUDI\ProyectoUDI\obj\Debug\ProyectoUDI.Properties.Resources.resources
 C:\Users\USUARIO1\Desktop\UDI_GIT\SistemaUDI\ProyectoUDI\ProyectoUDI\obj\Debug\ProyectoUDI.csproj.GenerateResource.Cache
+C:\Users\USUARIO1\Desktop\UDI_GIT\SistemaUDI\ProyectoUDI\ProyectoUDI\bin\Debug\ProyectoUDI.exe
+C:\Users\USUARIO1\Desktop\UDI_GIT\SistemaUDI\ProyectoUDI\ProyectoUDI\bin\Debug\ProyectoUDI.pdb

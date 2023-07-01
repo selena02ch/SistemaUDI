@@ -16,7 +16,22 @@ namespace ProyectoUDI
             InitializeComponent();
         }
 
-        private void lbl_Acceder_Click(object sender, EventArgs e)
+
+        private void bien_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            Login nlogin = new Login();
+            nlogin.Show();
+            this.Hide();
+        }
+
+        private void lbl_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            Login nlogin = new Login();
+            nlogin.Show();
+            this.Hide();
+        }
+
+        private void img_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             Login nlogin = new Login();
             nlogin.Show();
