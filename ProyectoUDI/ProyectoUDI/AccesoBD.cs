@@ -14,6 +14,7 @@ namespace ProyectoUDI
         public OleDbDataReader lectura;
         public DataTable tabladatos;
         string cadena_conexion;
+        public string texto;
 
 
         public OleDbDataReader p_Lectura
@@ -97,6 +98,14 @@ namespace ProyectoUDI
             lectura = comando.ExecuteReader();
             tabladatos = new DataTable();
             tabladatos.Load(lectura);
+        }
+
+        public void consultaDatoCadena()
+        {
+            lectura = comando.ExecuteReader();
+            p_Lectura.Read();
+            texto = p_Lectura.GetString(0);
+            p_Lectura.Close();
         }
     }
 }
