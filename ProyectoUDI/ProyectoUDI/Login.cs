@@ -23,7 +23,6 @@ namespace ProyectoUDI
             string usuario = textBox1.Text;
             string contraseña = textBox2.Text;
 
-<<<<<<< HEAD
             if (usuario == "" & contraseña == "")
             {
                 MessageBox.Show("Ingrese Usuario y Contraseña");
@@ -62,7 +61,6 @@ namespace ProyectoUDI
                 }
             }
 
-=======
             //for (int x = 0; x < 5; x++)
             //{
 
@@ -94,7 +92,6 @@ namespace ProyectoUDI
                    // textBox1.Focus();
                 //}
            // }
->>>>>>> 9296230a9ce1b1a4d87355ad285b3197db42562f
         }
     }
 }
