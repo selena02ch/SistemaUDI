@@ -11,9 +11,12 @@ namespace ProyectoUDI
 {
     public partial class PanelProveedores : Form
     {
+
         public PanelProveedores()
         {
             InitializeComponent();
         }
+
+
     }
 }
