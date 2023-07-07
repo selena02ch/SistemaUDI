@@ -7,10 +7,9 @@ namespace ProyectoUDI
 {
     class ClaseDatos
     {
-        string nombre, domicilio, usuario, contra;
-        int costo, precioV;
+        string nombre, domicilio, usuario, contra, costo, precioV;
 
-        public int pCosto
+        public string pCosto
         {
             set
             {
@@ -22,7 +21,7 @@ namespace ProyectoUDI
             }
         }
 
-        public int pPrecioV
+        public string pPrecioV
         {
             set
             {
@@ -82,5 +81,9 @@ namespace ProyectoUDI
             }
         }
 
+        public override string ToString()
+        {
+            return (nombre + " " + costo + " " + precioV);
+        }
     }
     }
