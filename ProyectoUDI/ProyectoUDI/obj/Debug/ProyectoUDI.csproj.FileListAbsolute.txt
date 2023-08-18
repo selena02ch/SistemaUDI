@@ -11,3 +11,5 @@ C:\Users\USUARIO1\Desktop\UDI_Proyecto\SistemaUDI\ProyectoUDI\ProyectoUDI\obj\De
 C:\Users\USUARIO1\Desktop\UDI_Proyecto\SistemaUDI\ProyectoUDI\ProyectoUDI\obj\Debug\ProyectoUDI.csproj.GenerateResource.Cache
 C:\Users\USUARIO1\Desktop\UDI_Proyecto\SistemaUDI\ProyectoUDI\ProyectoUDI\obj\Debug\ProyectoUDI.exe
 C:\Users\USUARIO1\Desktop\UDI_Proyecto\SistemaUDI\ProyectoUDI\ProyectoUDI\obj\Debug\ProyectoUDI.pdb
+C:\Users\SUPCOMERCIO\Desktop\udi\SistemaUDI\ProyectoUDI\ProyectoUDI\obj\Debug\ProyectoUDI.exe
+C:\Users\SUPCOMERCIO\Desktop\udi\SistemaUDI\ProyectoUDI\ProyectoUDI\obj\Debug\ProyectoUDI.pdb
