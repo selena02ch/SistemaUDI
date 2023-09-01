@@ -42,7 +42,7 @@
             // listBoxProveedor
             // 
             this.listBoxProveedor.FormattingEnabled = true;
-            this.listBoxProveedor.Location = new System.Drawing.Point(319, 76);
+            this.listBoxProveedor.Location = new System.Drawing.Point(345, 75);
             this.listBoxProveedor.Name = "listBoxProveedor";
             this.listBoxProveedor.Size = new System.Drawing.Size(259, 173);
             this.listBoxProveedor.TabIndex = 48;
