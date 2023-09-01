@@ -83,7 +83,7 @@ namespace ProyectoUDI
 
         public override string ToString()
         {
-            return (nombre + " " + costo + " " + precioV);
+            return (nombre + " " + costo + " " + precioV + " " + domicilio);
         }
     }
     }
