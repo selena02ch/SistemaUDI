@@ -36,6 +36,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBoxProveedor
@@ -54,6 +55,7 @@
             this.btnXProv.TabIndex = 47;
             this.btnXProv.Text = "Eliminar";
             this.btnXProv.UseVisualStyleBackColor = true;
+            this.btnXProv.Click += new System.EventHandler(this.btnXProv_Click);
             // 
             // btnGProv
             // 
@@ -63,6 +65,7 @@
             this.btnGProv.TabIndex = 46;
             this.btnGProv.Text = "Guardar";
             this.btnGProv.UseVisualStyleBackColor = true;
+            this.btnGProv.Click += new System.EventHandler(this.btnGProv_Click);
             // 
             // txtDomcProv
             // 
@@ -105,12 +108,23 @@
             this.label1.TabIndex = 41;
             this.label1.Text = "PROVEEDORES";
             // 
+            // btnVolver
+            // 
+            this.btnVolver.Location = new System.Drawing.Point(516, 329);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(75, 23);
+            this.btnVolver.TabIndex = 49;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // PanelProveedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(662, 410);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.listBoxProveedor);
             this.Controls.Add(this.btnXProv);
             this.Controls.Add(this.btnGProv);
@@ -136,6 +150,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnVolver;
 
     }
 }
