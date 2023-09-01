@@ -43,7 +43,7 @@
             // lista
             // 
             this.lista.FormattingEnabled = true;
-            this.lista.Location = new System.Drawing.Point(337, 58);
+            this.lista.Location = new System.Drawing.Point(325, 58);
             this.lista.Name = "lista";
             this.lista.Size = new System.Drawing.Size(209, 199);
             this.lista.TabIndex = 20;
@@ -94,7 +94,7 @@
             // 
             this.buttonGuardar.BackColor = System.Drawing.Color.Lavender;
             this.buttonGuardar.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonGuardar.Location = new System.Drawing.Point(103, 296);
+            this.buttonGuardar.Location = new System.Drawing.Point(91, 294);
             this.buttonGuardar.Name = "buttonGuardar";
             this.buttonGuardar.Size = new System.Drawing.Size(75, 23);
             this.buttonGuardar.TabIndex = 21;
@@ -118,7 +118,7 @@
             // 
             this.btnXClientes.BackColor = System.Drawing.Color.Lavender;
             this.btnXClientes.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXClientes.Location = new System.Drawing.Point(225, 298);
+            this.btnXClientes.Location = new System.Drawing.Point(204, 294);
             this.btnXClientes.Name = "btnXClientes";
             this.btnXClientes.Size = new System.Drawing.Size(75, 23);
             this.btnXClientes.TabIndex = 50;

@@ -44,7 +44,7 @@
             // listBoxProd
             // 
             this.listBoxProd.FormattingEnabled = true;
-            this.listBoxProd.Location = new System.Drawing.Point(317, 64);
+            this.listBoxProd.Location = new System.Drawing.Point(307, 81);
             this.listBoxProd.Name = "listBoxProd";
             this.listBoxProd.Size = new System.Drawing.Size(258, 160);
             this.listBoxProd.TabIndex = 30;
@@ -53,7 +53,7 @@
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.Lavender;
             this.btnEliminar.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(220, 271);
+            this.btnEliminar.Location = new System.Drawing.Point(222, 279);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 29;
@@ -65,7 +65,7 @@
             // 
             this.btnGuardar.BackColor = System.Drawing.Color.Lavender;
             this.btnGuardar.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.Location = new System.Drawing.Point(93, 271);
+            this.btnGuardar.Location = new System.Drawing.Point(95, 279);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(75, 23);
             this.btnGuardar.TabIndex = 28;

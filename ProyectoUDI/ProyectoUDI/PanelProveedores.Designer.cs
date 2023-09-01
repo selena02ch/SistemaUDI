@@ -42,16 +42,16 @@
             // listBoxProveedor
             // 
             this.listBoxProveedor.FormattingEnabled = true;
-            this.listBoxProveedor.Location = new System.Drawing.Point(333, 75);
+            this.listBoxProveedor.Location = new System.Drawing.Point(319, 76);
             this.listBoxProveedor.Name = "listBoxProveedor";
-            this.listBoxProveedor.Size = new System.Drawing.Size(258, 160);
+            this.listBoxProveedor.Size = new System.Drawing.Size(259, 173);
             this.listBoxProveedor.TabIndex = 48;
             // 
             // btnXProv
             // 
             this.btnXProv.BackColor = System.Drawing.Color.Lavender;
             this.btnXProv.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXProv.Location = new System.Drawing.Point(236, 282);
+            this.btnXProv.Location = new System.Drawing.Point(223, 282);
             this.btnXProv.Name = "btnXProv";
             this.btnXProv.Size = new System.Drawing.Size(75, 23);
             this.btnXProv.TabIndex = 47;
