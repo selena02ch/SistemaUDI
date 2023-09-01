@@ -42,29 +42,33 @@
             // listBoxProveedor
             // 
             this.listBoxProveedor.FormattingEnabled = true;
-            this.listBoxProveedor.Location = new System.Drawing.Point(333, 75);
+            this.listBoxProveedor.Location = new System.Drawing.Point(345, 75);
             this.listBoxProveedor.Name = "listBoxProveedor";
-            this.listBoxProveedor.Size = new System.Drawing.Size(258, 160);
+            this.listBoxProveedor.Size = new System.Drawing.Size(259, 173);
             this.listBoxProveedor.TabIndex = 48;
             // 
             // btnXProv
             // 
-            this.btnXProv.Location = new System.Drawing.Point(236, 282);
+            this.btnXProv.BackColor = System.Drawing.Color.Lavender;
+            this.btnXProv.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXProv.Location = new System.Drawing.Point(223, 282);
             this.btnXProv.Name = "btnXProv";
             this.btnXProv.Size = new System.Drawing.Size(75, 23);
             this.btnXProv.TabIndex = 47;
             this.btnXProv.Text = "Eliminar";
-            this.btnXProv.UseVisualStyleBackColor = true;
+            this.btnXProv.UseVisualStyleBackColor = false;
             this.btnXProv.Click += new System.EventHandler(this.btnXProv_Click);
             // 
             // btnGProv
             // 
+            this.btnGProv.BackColor = System.Drawing.Color.Lavender;
+            this.btnGProv.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGProv.Location = new System.Drawing.Point(109, 282);
             this.btnGProv.Name = "btnGProv";
             this.btnGProv.Size = new System.Drawing.Size(75, 23);
             this.btnGProv.TabIndex = 46;
             this.btnGProv.Text = "Guardar";
-            this.btnGProv.UseVisualStyleBackColor = true;
+            this.btnGProv.UseVisualStyleBackColor = false;
             this.btnGProv.Click += new System.EventHandler(this.btnGProv_Click);
             // 
             // txtDomcProv
@@ -84,45 +88,50 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(70, 163);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 13);
+            this.label3.Size = new System.Drawing.Size(61, 16);
             this.label3.TabIndex = 43;
             this.label3.Text = "Domicilio";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(70, 99);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 13);
+            this.label2.Size = new System.Drawing.Size(53, 16);
             this.label2.TabIndex = 42;
             this.label2.Text = "Nombre";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(20, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 13);
+            this.label1.Size = new System.Drawing.Size(155, 23);
             this.label1.TabIndex = 41;
             this.label1.Text = "PROVEEDORES";
             // 
             // btnVolver
             // 
+            this.btnVolver.BackColor = System.Drawing.Color.Lavender;
+            this.btnVolver.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVolver.Location = new System.Drawing.Point(516, 329);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 23);
             this.btnVolver.TabIndex = 49;
             this.btnVolver.Text = "Volver";
-            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // PanelProveedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Lavender;
+            this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(662, 410);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.listBoxProveedor);
