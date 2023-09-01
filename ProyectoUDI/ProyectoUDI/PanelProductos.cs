@@ -71,5 +71,30 @@ namespace ProyectoUDI
             instanciaBD.p_Lectura.Close();
             instanciaBD.desconectar();
         }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            PanelMenu menu = new PanelMenu();
+            menu.Show();
+            this.Hide();
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show("Seguro que desea borrar los datos " + txtNombre.Text + "?", "", MessageBoxButtons.YesNo);
+
+            if (resultado == DialogResult.Yes)
+            {
+                string consulta = "delete * from Producto where Nombre = '" + vectorDatosP[listBoxProd.SelectedIndex].pNombre + "'";
+
+                instanciaBD.Actualizar(consulta);
+
+                CargarListaP("Producto");
+            }
+            else
+            {
+                MessageBox.Show("Operación cancelada");
+            }
+        }
     }
 }

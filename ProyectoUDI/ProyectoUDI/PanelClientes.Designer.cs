@@ -35,6 +35,8 @@
             this.textBoxDomicilio = new System.Windows.Forms.TextBox();
             this.textBoxNyA = new System.Windows.Forms.TextBox();
             this.buttonGuardar = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
+            this.btnXClientes = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lista
@@ -42,7 +44,7 @@
             this.lista.FormattingEnabled = true;
             this.lista.Location = new System.Drawing.Point(337, 58);
             this.lista.Name = "lista";
-            this.lista.Size = new System.Drawing.Size(209, 277);
+            this.lista.Size = new System.Drawing.Size(209, 199);
             this.lista.TabIndex = 20;
             // 
             // label3
@@ -93,6 +95,27 @@
             this.buttonGuardar.TabIndex = 21;
             this.buttonGuardar.Text = "Guardar";
             this.buttonGuardar.UseVisualStyleBackColor = true;
+            this.buttonGuardar.Click += new System.EventHandler(this.buttonGuardar_Click);
+            // 
+            // btnVolver
+            // 
+            this.btnVolver.Location = new System.Drawing.Point(471, 344);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(75, 23);
+            this.btnVolver.TabIndex = 51;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // btnXClientes
+            // 
+            this.btnXClientes.Location = new System.Drawing.Point(225, 298);
+            this.btnXClientes.Name = "btnXClientes";
+            this.btnXClientes.Size = new System.Drawing.Size(75, 23);
+            this.btnXClientes.TabIndex = 50;
+            this.btnXClientes.Text = "Eliminar";
+            this.btnXClientes.UseVisualStyleBackColor = true;
+            this.btnXClientes.Click += new System.EventHandler(this.btnXClientes_Click);
             // 
             // PanelClientes
             // 
@@ -100,6 +123,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(592, 393);
+            this.Controls.Add(this.btnVolver);
+            this.Controls.Add(this.btnXClientes);
             this.Controls.Add(this.buttonGuardar);
             this.Controls.Add(this.lista);
             this.Controls.Add(this.label3);
@@ -109,7 +134,6 @@
             this.Controls.Add(this.textBoxNyA);
             this.Name = "PanelClientes";
             this.Text = "PanelClientes";
-            this.Load += new System.EventHandler(this.PanelClientes_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -124,5 +148,7 @@
         private System.Windows.Forms.TextBox textBoxDomicilio;
         private System.Windows.Forms.TextBox textBoxNyA;
         private System.Windows.Forms.Button buttonGuardar;
+        private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.Button btnXClientes;
     }
 }

@@ -14,6 +14,7 @@ namespace ProyectoUDI
         public PanelClientes()
         {
             InitializeComponent();
+            CargarListaC("Cliente");
         }
 
 
@@ -61,6 +62,32 @@ namespace ProyectoUDI
             }
             instanciaBD.p_Lectura.Close();
             instanciaBD.desconectar();
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            PanelMenu menu = new PanelMenu();
+            menu.Show();
+            this.Hide();
+
+        }
+
+        private void btnXClientes_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show("Seguro que desea borrar los datos " + textBoxNyA.Text + "?", "", MessageBoxButtons.YesNo);
+
+            if (resultado == DialogResult.Yes)
+            {
+                string consulta = "delete * from Cliente where Nombre = '" + vectorDatosC[lista.SelectedIndex].pNombre + "'";
+
+                instanciaBD.Actualizar(consulta);
+
+                CargarListaC("Cliente");
+            }
+            else
+            {
+                MessageBox.Show("Operación cancelada");
+            }
         }
     }
 }

@@ -17,11 +17,19 @@ namespace ProyectoUDI
         public PanelProveedores()
         {
             InitializeComponent();
+            CargarListaProv("Proveedores");
         }
 
         private void btnGProv_Click(object sender, EventArgs e)
         {
+            ClaseDatos datosProv = new ClaseDatos();
 
+            datosProv.pNombre = txtNomProv.Text;
+            datosProv.pDomicilio = txtDomcProv.Text;
+
+            string consulta = string.Format("insert into Proveedores (Nombre, Domicilio) values ('{0}', '{1}')", datosProv.pNombre, datosProv.pDomicilio);
+            instanciaBD.Actualizar(consulta);
+            CargarListaProv("Proveedores");
         }
 
         private void CargarListaProv(string nombreTabla)
@@ -56,6 +64,31 @@ namespace ProyectoUDI
 
             instanciaBD.p_Lectura.Close();
             instanciaBD.desconectar();
+        }
+
+        private void btnXProv_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show("Seguro que desea borrar los datos " + txtNomProv.Text + "?", "", MessageBoxButtons.YesNo);
+
+            if (resultado == DialogResult.Yes)
+            {
+                string consulta = "delete * from Proveedores where Nombre = '" + vectorDatosProv[listBoxProveedor.SelectedIndex].pNombre + "'";
+
+                instanciaBD.Actualizar(consulta);
+
+                CargarListaProv("Proveedores");
+            }
+            else
+            {
+                MessageBox.Show("Operación cancelada");
+            }
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            PanelMenu menu = new PanelMenu();
+            menu.Show();
+            this.Hide();
         }
     }
 }
